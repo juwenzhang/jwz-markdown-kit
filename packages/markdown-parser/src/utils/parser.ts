@@ -1,8 +1,8 @@
-import { Token } from '../types/TokenType';
+import { Token } from '../types/TokenType'
 
 export const parser = (tokens: Token[]): Token => {
   return {
     type: 'document',
-    children: tokens
-  };
-};
+    children: tokens,
+  }
+}

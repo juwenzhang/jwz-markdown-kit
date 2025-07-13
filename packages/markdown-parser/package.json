@@ -1,0 +1,21 @@
+{
+  "name": "markdown-parser",
+  "version": "1.0.0",
+  "description": "markdown 解析器",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "markdown",
+    "parser"
+  ],
+  "author": "juwenzhang",
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}

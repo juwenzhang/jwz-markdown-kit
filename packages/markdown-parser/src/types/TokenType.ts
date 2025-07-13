@@ -15,18 +15,18 @@ export type TokenTypes =
   | 'document'
 
 export interface Token {
-  type: TokenTypes,
-  value?: string,
-  level?: number,
-  ordered?: boolean,
-  children?: Token[],
-  href?: string,
-  alt?: string,
-  lang?: string,
-  title?: string,
+  type: TokenTypes
+  value?: string
+  level?: number
+  ordered?: boolean
+  children?: Token[]
+  href?: string
+  alt?: string
+  lang?: string
+  title?: string
 }
 
 export interface ParserState {
-  input: string;
-  position: number;
+  input: string
+  position: number
 }
